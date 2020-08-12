@@ -61,4 +61,5 @@ module Spree
   end
 end
 
-Spree::OrderContents.send(:prepend, Spree::OrderContentsWithTracker)
+# TODO 4.0 compatibility
+# Spree::OrderContents.send(:prepend, Spree::OrderContentsWithTracker)
